@@ -1,3 +1,18 @@
+controlled-assessment
+=============================
+
+##What i need to do
+
+1. I need to change a certian currency into difrent currencys
+
+2. I need to allow user to take a certian amount out of each currencys
+
+3. I need printed figure should be two decimal places.
+
+##Pseudo code:
+
+```
+
 allowables = ["pounds", "dollars", "euro", "yen"]
 rates = [1,1.7,1.25, 173]
 pounds = 'pounds'
@@ -26,3 +41,15 @@ var3 = float(input("Please type the amount of currency you wish to convert "))
 
 ammount = var3/rates[var1] *rates[var2]
 print(' your converted ammount is {0} {1}'.format(ammount,allowables[var2]))
+...
+```
+
+##veriables 
+veriables used | type | discussion
+----|----|----
+currencyfrom|iteger
+currencyTo|iteger
+symbols|list of
+rate|float              
+
+#by Michael Waters 
